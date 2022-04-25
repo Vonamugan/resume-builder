@@ -1,20 +1,32 @@
 {
   "name": "resume-builder",
   "version": "0.1.0",
+  "description": "Simple online resume builder",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier -write"
   },
+  "keywords": [],
+  "author": "Andrey Nagumanov<vonamugan@gmail.com",
+  "license": "MIT",
   "dependencies": {
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.3.1",
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "three": "^0.139.2"
   },
   "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5"
+    "eslint": "^8.14.0",
+    "eslint-config-next": "^12.1.5",
+    "prettier": "^2.6.2"
   }
 }
