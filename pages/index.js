@@ -73,6 +73,7 @@ const Home = () => {
             Impress recruiters with a modern PDF resume template and get the job you want.
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+          <Link href="/editor" passHref>
             <Button
               leftIcon={<AttachmentIcon />}
               size='lg'
@@ -85,6 +86,7 @@ const Home = () => {
               }}>
               CREATE RESUME
             </Button>
+            </Link>
             <Center fontSize={{ base: 'md', lg: 'lg' }} color={'gray.400'} align={'center'}>NO SIGN-UP REQUIRED</Center>
           </Stack>
         </Stack>
