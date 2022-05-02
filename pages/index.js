@@ -1,6 +1,5 @@
 import Logo from "../components/logo";
 import {
-	Link,
 	Container,
 	Heading,
 	Box,
@@ -20,7 +19,7 @@ import {
 
 
 import { AttachmentIcon } from '@chakra-ui/icons'
-import NextLink from 'next/link'
+import Link from 'next/link'
 // import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 // import Section from '../components/section'
@@ -73,7 +72,7 @@ const Home = () => {
             Impress recruiters with a modern PDF resume template and get the job you want.
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-          <Link href="/editor" passHref>
+          <Link href="editor" passHref>
             <Button
               leftIcon={<AttachmentIcon />}
               size='lg'
@@ -85,7 +84,7 @@ const Home = () => {
                 boxShadow: 'lg',
               }}>
               CREATE RESUME
-            </Button>
+              </Button>
             </Link>
             <Center fontSize={{ base: 'md', lg: 'lg' }} color={'gray.400'} align={'center'}>NO SIGN-UP REQUIRED</Center>
           </Stack>
